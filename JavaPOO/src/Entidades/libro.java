@@ -19,13 +19,12 @@ public class libro {
     public int numPag;
 
     public libro() {
-
     }
 
     public libro(String ISBN, String Titulo, String autor, int numPag) {
         this.ISBN = ISBN;
         this.Titulo = Titulo;
-        this.ISBN = autor;
+        this.autor = autor;
         this.numPag = numPag;
     }
 

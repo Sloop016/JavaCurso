@@ -10,17 +10,17 @@ import java.util.Scanner;
  *
  * @author gabyg
  */
-public class rectangulo {
+public class rectangulo1 {
 
     static Scanner sc = new Scanner(System.in);
     private int base;
     private int altura;
 
-    public rectangulo() {
+    public rectangulo1() {
 
     }
 
-    public rectangulo(int base, int altura) {
+    public rectangulo1(int base, int altura) {
         this.base = base;
         this.altura = altura;
 

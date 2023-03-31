@@ -4,17 +4,16 @@
  */
 package Ejercicios;
 
-import Entidades.libro;
+import Entidades.cancion;
 
 /**
  *
  * @author gabyg
  */
-public class ejercicio1 {
+public class extra1 {
     public static void main(String[] args) {
-        libro l1 = new libro();
-        l1.libro();
-
-       
+        cancion c1 = new cancion();
+        c1.lectura();
+        System.out.println(c1);
     }
 }

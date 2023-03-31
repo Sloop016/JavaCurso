@@ -4,17 +4,17 @@
  */
 package Ejercicios;
 
-import Entidades.libro;
+import Entidades.puntos;
 
 /**
  *
  * @author gabyg
  */
-public class ejercicio1 {
-    public static void main(String[] args) {
-        libro l1 = new libro();
-        l1.libro();
+public class extra2 {
 
-       
+    public static void main(String[] args) {
+        puntos p1 = new puntos();
+        p1.crearPuntos();
+        System.out.println("La distancia entre puntos es: " + p1.dist());
     }
 }

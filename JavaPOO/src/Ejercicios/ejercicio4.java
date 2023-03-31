@@ -4,7 +4,7 @@
  */
 package Ejercicios;
 
-import Entidades.rectangulo;
+import Entidades.rectangulo1;
 
 /**
  *
@@ -14,7 +14,7 @@ public class ejercicio4 {
 
     public static void main(String[] args) {
 
-        rectangulo r1 = new rectangulo();
+        rectangulo1 r1 = new rectangulo1();
         r1.datos();
         System.out.println("La superficie del rectangulo es:" + r1.superficie());
         System.out.println("El perimetro del rectangulo es:" + r1.perimetro());
