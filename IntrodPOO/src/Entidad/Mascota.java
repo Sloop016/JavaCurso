@@ -23,13 +23,6 @@ public class Mascota {
     public Mascota() {
     }
 
-    public Mascota(String nombre, String apodo, String tipo) {
-        this.nombre = nombre;
-        this.apodo = apodo;
-        this.tipo = tipo;
-
-    }
-
     public Mascota(String nombre, String apodo, String tipo, String color, int edad, boolean cola, String raza) {
         this.nombre = nombre;
         this.apodo = apodo;
